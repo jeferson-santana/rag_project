@@ -13,7 +13,7 @@ Este projeto implementa um **sistema de Recuperação Aumentada por Geração (R
 ###  **1. Clonar o repositório**
 ```bash
 git clone https://github.com/jeferson-santana/rag_project
-cd rag-hotmart
+cd rag_project  
 ```
 
 ###  **2. Criar e ativar um ambiente virtual**
