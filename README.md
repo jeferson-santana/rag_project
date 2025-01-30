@@ -89,15 +89,25 @@ SIMILARITY_THRESHOLD = 0.6  # Limiar de similaridade para considerar resposta v�
 
 ##  **Possíveis Melhorias**
 🔹 Resumir respostas sem perda de conteúdo, garantindo que sejam concisas e informativas.
+
 🔹 Implementação de cache de resultados para acelerar buscas repetidas.  
+
 🔹 Afinamento do modelo FLAN-T5 para melhorar a geração de respostas.  
+
 🔹 Desenvolvimento de uma interface web para facilitar a interação com o sistema.  
+
 🔹 Uso de embeddings mais avançados (ex: Cohere, OpenAI, SBERT) para melhorar a recuperação de documentos.
+
 🔹 Armazenamento das interações em banco de dados para análise e melhoria contínua do modelo.
+
 🔹 Pipeline de treinamento automatizado para ajustar modelos conforme novos dados surgem.
+
 🔹 Integração com uma API REST para facilitar o consumo do modelo por outras aplicações.
+
 🔹 Geração de logs e monitoramento para analisar o desempenho do sistema em produção.
+
 🔹 Criação de testes automatizados para validar a precisão e robustez do sistema.
+
 🔹 Aprimoramento da limpeza e pré-processamento de texto para remover ruídos e melhorar a recuperação de informações.
 
 ---
