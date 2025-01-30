@@ -88,6 +88,7 @@ SIMILARITY_THRESHOLD = 0.6  # Limiar de similaridade para considerar resposta v�
 ---
 
 ##  **Possíveis Melhorias**
+🔹 Resumir respostas sem perda de conteúdo, garantindo que sejam concisas e informativas.
 🔹 Implementação de cache de resultados para acelerar buscas repetidas.  
 🔹 Afinamento do modelo FLAN-T5 para melhorar a geração de respostas.  
 🔹 Desenvolvimento de uma interface web para facilitar a interação com o sistema.  
