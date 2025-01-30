@@ -53,17 +53,27 @@ Exemplo de resposta:
 
 ##  **Estrutura do Projeto**
 ```
-rag-hotmart/
-│── data_loader.py   # Carregamento e tratamento inicial dos dados
-│── preprocess.py    # Limpeza e preparação dos textos
-│── retriever.py     # Implementação da busca semântica com FAISS
-│── generator.py     # Geração de resposta usando FLAN-T5
-│── utils.py         # Funções auxiliares
-│── config.py        # Definição de parâmetros globais
-│── main.py          # Script principal para interação com o usuário
-│── requirements.txt # Lista de pacotes necessários
-│── README.md        # Documentação do projeto
-└── data/            # Pasta onde o arquivo de FAQ deve ser colocado
+rag_project/
+├── src/                  # Código-fonte do projeto
+│   ├── data_loader.py    # Carregamento e tratamento inicial dos dados
+│   ├── preprocess.py     # Limpeza e preparação dos textos
+│   ├── retriever.py      # Implementação da busca semântica com FAISS
+│   ├── generator.py      # Geração de resposta usando FLAN-T5
+│   ├── utils.py          # Funções auxiliares
+│   ├── config.py         # Definição de parâmetros globais
+│   ├── main.py           # Script principal para interação com o usuário
+│
+├── data/                 # Contém a base de dados do projeto
+│   ├── ProcessoSeletivo[RAG].xlsx
+│
+├── notebook/             # Notebooks Jupyter para análise e experimentação
+│   ├── rag.ipynb
+│
+├── report/               # Relatórios e documentação
+│   ├── Relatorio de Avaliacao.docx
+│
+├── requirements.txt      # Lista de pacotes necessários
+├── README.md             # Documentação do projeto
 ```
 
 ---
