@@ -17,5 +17,5 @@ title_similarity_weight = 0.4
 critical_threshold = 0.3  
 similarity_threshold_faq = 0.55  
 
-# Caminho do arquivo de dados
-file_path = r"C:\Users\Acer\Downloads\ProcessoSeletivo[RAG].xlsx"
+# Caminho do arquivo de dados dentro do repositório
+file_path = "data/ProcessoSeletivo[RAG].xlsx"
