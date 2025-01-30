@@ -12,7 +12,7 @@ Este projeto implementa um **sistema de Recuperação Aumentada por Geração (R
 ##  **Instalação e Execução**
 ###  **1. Clonar o repositório**
 ```bash
-git clone https://github.com/seu-usuario/rag-hotmart.git
+git clone https://github.com/jeferson-santana/rag_project
 cd rag-hotmart
 ```
 
