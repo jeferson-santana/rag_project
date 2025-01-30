@@ -29,7 +29,7 @@ pip install -r requirements.txt
 ```
 
 ###  **4. Adicionar o arquivo de dados**
-Coloque o arquivo **ProcessoSeletivo[RAG].xlsx** na pasta do projeto.
+O arquivo **ProcessoSeletivo[RAG].xlsx** já está disponível na pasta `data/` do projeto. 
 
 ###  **5. Executar**
 Após instalar as dependências e configurar os arquivos, execute:
