@@ -1,4 +1,4 @@
-# RAG Hotmart - Assistente de Respostas com Recuperação e Geração
+# RAG - Assistente de Respostas com Recuperação e Geração
 
 Este projeto implementa um **sistema de Recuperação Aumentada por Geração (RAG)** para responder perguntas sobre a FAQ da **Hotmart**. Ele combina **busca semântica com FAISS** e **geração de respostas com um modelo FLAN-T5**.
 
