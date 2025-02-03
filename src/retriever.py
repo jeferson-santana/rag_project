@@ -39,6 +39,6 @@ def search_faq(query, df, embedding_model, index):
             best_match = idx
 
     if highest_score < critical_threshold:
-        return "Desculpe, essa pergunta parece estar fora do escopo da Hotmart."
+        return "Desculpe, essa pergunta parece estar fora do escopo."
 
     return clean_text(df.iloc[best_match]["article_content"], query) if best_match is not None else None
