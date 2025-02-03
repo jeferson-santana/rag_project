@@ -1,6 +1,6 @@
 # RAG - Assistente de Respostas com Recuperação e Geração
 
-Este projeto implementa um **sistema de Recuperação Aumentada por Geração (RAG)** para responder perguntas sobre a FAQ da **Hotmart**. Ele combina **busca semântica com FAISS** e **geração de respostas com um modelo FLAN-T5**.
+Este projeto implementa um **sistema de Recuperação Aumentada por Geração (RAG)** para responder perguntas sobre a FAQ da . Ele combina **busca semântica com FAISS** e **geração de respostas com um modelo FLAN-T5**.
 
 ##  **Funcionalidades**
 -  **Busca semântica**: Usa embeddings e **FAISS** para encontrar a resposta mais relevante na base da FAQ.
@@ -39,7 +39,7 @@ python main.py
 
 O sistema perguntará:
 ```bash
-Digite uma pergunta sobre a FAQ do Hotmart (ou digite 'sair' para encerrar):
+Digite uma pergunta sobre a FAQ  (ou digite 'sair' para encerrar):
 ```
 Exemplo de resposta:
 ```
