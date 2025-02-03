@@ -9,7 +9,7 @@ df = load_data()
 embedding_model, index, df = create_embeddings(df)
 
 while True:
-    query = input("\nDigite uma pergunta sobre a FAQ do Hotmart (ou digite 'sair' para encerrar): ").strip()
+    query = input("\nDigite uma pergunta sobre a FAQ (ou digite 'sair' para encerrar): ").strip()
 
     if query.lower() == "sair":
         print("\nEncerrando o assistente. Obrigado!\n")
